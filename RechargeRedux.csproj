@@ -60,7 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Patches.cs" />
+    <Compile Include="src\Plugin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>

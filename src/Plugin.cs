@@ -19,7 +19,7 @@ namespace RechargeRedux
         public static bool RechargeTZP { get; private set; }
 
         private const string modGUID = "achohbee.RechargeRedux";
-        private const string modName = "Recharge Redux";
+        private const string modName = "RechargeRedux";
         private const string modVersion = "1.0.0";
 
         internal static ManualLogSource log = BepInEx.Logging.Logger.CreateLogSource(modName);
