@@ -1,0 +1,9 @@
+{
+    "name": "Recharge_Redux",
+    "description": "Allow Spray Paint and TZP-Inhalent to be recharged.",
+    "version_number": "1.0.0",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ],
+    "website_url": "https://github.com/achohbee/RechargeRedux"
+}
